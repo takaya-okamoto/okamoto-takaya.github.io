@@ -1,9 +1,27 @@
-import { Text } from '@chakra-ui/react'
+import {
+  Text,
+  HStack,
+  Button,
+  Box
+} from "@chakra-ui/react";
+import NextLink from "next/link"
 
-export function Footer():JSX.Element {
+
+export function Footer(): JSX.Element {
   return (
-    <>
-      <Text>Fotter</Text>
-    </>
-  )
+    <HStack p="20px 40px">
+      <NextLink href='/'>
+        <Button>Home</Button>
+      </NextLink>
+      <NextLink href='/works'>
+        <Button>Works</Button>
+      </NextLink>
+      <NextLink href='resume'>
+        <Button>Resume</Button>
+      </NextLink>
+      <NextLink href='/support'>
+        <Button>support</Button>
+      </NextLink>
+    </HStack>
+  );
 }

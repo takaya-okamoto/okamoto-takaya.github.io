@@ -1,10 +1,16 @@
-import { Text, Button, Box } from '@chakra-ui/react'
+import { Box } from '@chakra-ui/react'
 import type { NextPage } from 'next'
+import { Abstract } from '../components/mainArea/abstract'
+import { WhatCanIDo } from '../components/mainArea/whatCanIDo'
+import { SelfIntroduction } from '../components/mainArea/selfIntroduction'
+
 
 const Home: NextPage = () => {
   return (
-    <Box h="80vh" p="40px">
-      <Text>Main Area</Text>
+    <Box p="40px">
+      <Abstract />
+      <WhatCanIDo />
+      <SelfIntroduction />
     </Box>
   )
 }
