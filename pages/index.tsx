@@ -8,7 +8,7 @@ import { Connection } from '../components/mainArea/connection'
 
 const Home: NextPage = () => {
   return (
-    <Box p="40px">
+    <Box p="0 10%">
       <Abstract />
       <WhatCanIDo />
       <SelfIntroduction />
