@@ -2,7 +2,7 @@ import { Box, Text, Image, HStack } from '@chakra-ui/react'
 
 export function Abstract():JSX.Element {
   return (
-    <Box p="4% 0">
+    <Box p="70px 0">
       <HStack>
         <Box w="70%">
           <Text fontWeight="bold" fontSize="5xl" color="#58595b">Takaya Okamoto</Text>

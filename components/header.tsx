@@ -17,9 +17,9 @@ export function Header(): JSX.Element {
   const { hasCopied, onCopy } = useClipboard(myEmail);
 
   return (
-    <HStack p="20px 40px">
+    <HStack maxW="100%" p="30px 0px 10px 0px" ml="20px"> 
       {/* Header left */}
-      <HStack w="45%">
+      <HStack w="60%">
         <NextLink href='/'>
           <Button color="#58595b">Home</Button>
         </NextLink>
@@ -31,7 +31,7 @@ export function Header(): JSX.Element {
       </HStack>
 
       {/* Header right. */}
-      <HStack pl="37%" />
+      <HStack pl="20px"/>
         <Box>
           <NextLink href='/works'>
             <Button color="#58595b" leftIcon={<MdContactPage />} bgColor="white" borderRadius="3px" fontSize='lg' _hover={{bg: '#8bbbd3', color: '#fff'}}>Works</Button>
