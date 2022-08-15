@@ -1,0 +1,31 @@
+import {
+  Text,
+  HStack,
+  Button,
+  Box
+} from "@chakra-ui/react";
+import NextLink from "next/link"
+
+
+export function Header(): JSX.Element {
+  return (
+    <HStack p="20px 40px">
+      <NextLink href='/'>
+        <Button>Home</Button>
+      </NextLink>
+      {/* 別のメールサービスに飛ぶようにする */}
+      <NextLink href='/#'>
+        <Button>Mail</Button>
+      </NextLink>
+      <NextLink href='/works'>
+        <Button>Works</Button>
+      </NextLink>
+      <NextLink href='resume'>
+        <Button>Resume</Button>
+      </NextLink>
+      <NextLink href='/support'>
+        <Button>support</Button>
+      </NextLink>
+    </HStack>
+  );
+}
