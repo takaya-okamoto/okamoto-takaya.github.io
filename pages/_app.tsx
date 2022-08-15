@@ -12,8 +12,8 @@ function MyApp({ Component, pageProps }: AppProps) {
         <Box bgColor="white" borderRadius={10} shadow="xl">
           <Header />
           <Component {...pageProps} />
-          <Footer />
         </Box>
+        <Footer />
       </Box>
     </ChakraProvider>
   )

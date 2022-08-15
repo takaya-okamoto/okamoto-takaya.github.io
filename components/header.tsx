@@ -1,5 +1,4 @@
 import {
-  Text,
   HStack,
   Button,
   Box,

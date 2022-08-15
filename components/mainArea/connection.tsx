@@ -1,5 +1,5 @@
-import { Box, Text, HStack, Image, VStack } from "@chakra-ui/react";
-import Link from "next/link";
+import { Box, Text, HStack, Image, VStack, Link } from "@chakra-ui/react";
+
 
 export function Connection():JSX.Element {
   return (
