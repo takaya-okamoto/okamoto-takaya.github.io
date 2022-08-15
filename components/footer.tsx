@@ -9,7 +9,7 @@ import NextLink from "next/link"
 
 export function Footer(): JSX.Element {
   return (
-    <HStack p="20px 40px">
+    <HStack p="20px 40px" justifyContent="center">
       <NextLink href='/'>
         <Button>Home</Button>
       </NextLink>
