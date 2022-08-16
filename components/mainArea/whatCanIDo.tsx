@@ -1,9 +1,11 @@
 import { Box, Text } from '@chakra-ui/react' 
+import { Line } from '../line/line'
 
 export function WhatCanIDo():JSX.Element {
   return (
     <Box p="20px 0">
-      <Text pb="20px" fontWeight="bold" fontSize="4xl" color="#58595b">What can I do ?</Text>
+      <Text pb="10px" fontWeight="bold" fontSize="4xl" color="#58595b">What can I do ?</Text>
+      <Line />
       <Box bg="#F2F0EE" borderRadius="20px" p="30px 60px">
         <Box pb="30px">
           <Text p="10px 0" fontWeight="bold" fontSize="xl" color="#58595b">FRONTEND APPS</Text>
