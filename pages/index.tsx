@@ -4,7 +4,7 @@ import { Abstract } from '../components/mainArea/abstract'
 import { WhatCanIDo } from '../components/mainArea/whatCanIDo'
 import { SelfIntroduction } from '../components/mainArea/selfIntroduction'
 import { Connection } from '../components/mainArea/connection'
-import { Works } from '../components/mainArea/works'
+import { WorksComponent } from '../components/mainArea/worksComponent'
 
 
 const Home: NextPage = () => {
@@ -13,7 +13,7 @@ const Home: NextPage = () => {
       <Abstract />
       <WhatCanIDo />
       <SelfIntroduction />
-      <Works />
+      <WorksComponent />
       <Connection />
     </Box>
   )

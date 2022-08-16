@@ -3,7 +3,7 @@ import { Card } from '../card/card'
 import { cardData } from "../card/cardData"
 import { Line } from '../line/line'
 
-export function Works():JSX.Element {
+export function WorksComponent():JSX.Element {
   return (
     <Box p="40px 0">
       <Text fontWeight="bold" fontSize="4xl" color="#58595b">My Works</Text>
