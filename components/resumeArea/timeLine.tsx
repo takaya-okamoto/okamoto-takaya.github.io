@@ -7,6 +7,9 @@ import 'react-vertical-timeline-component/style.min.css';
 import { FaSchool } from 'react-icons/fa';
 import { Gi3DStairs } from 'react-icons/gi';
 
+
+//https://stephane-monnot.github.io/react-vertical-timeline/#/ を使用
+
 export function TimeLine(): JSX.Element {
   return (
     <VerticalTimeline lineColor="#58595B">

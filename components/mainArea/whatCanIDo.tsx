@@ -9,15 +9,11 @@ export function WhatCanIDo():JSX.Element {
       <Box bg="#F2F0EE" borderRadius="20px" p="30px 60px">
         <Box pb="30px">
           <Text p="10px 0" fontWeight="bold" fontSize="xl" color="#58595b">FRONTEND APPS</Text>
-          <Text color="#58595b">Build client-side applications with modern features like SPA and maintain semantic coding style among other best practices for SEO optimisation. Use modern tech such as Nuxt (Vue.js), TailwindCSS, and GSAP.</Text>
+          <Text color="#58595b">Build client-side applications with modern features like SPA . <br/> Use modern tech such as React, Next.js,  Chakra UI . </Text>
         </Box>
         <Box pb="30px">
           <Text p="10px 0" fontWeight="bold" fontSize="xl" color="#58595b">BACKEND APPS</Text>
-          <Text color="#58595b">Build scalable and maintainable server applications using modern technology stacks such as Node.js, Express, and MongoDB</Text>
-        </Box>
-        <Box pb="30px">
-          <Text p="10px 0" fontWeight="bold" fontSize="xl" color="#58595b">NATIVE APPS</Text>
-          <Text color="#58595b">Use Flutter for building simple native mobile applications. Flutter is modern, fast, cross-platform, and popular.</Text>
+          <Text color="#58595b">I can write smart contracts using Solidity etc.</Text>
         </Box>
       </Box>
     </Box>
