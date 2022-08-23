@@ -22,10 +22,10 @@ export function SelfIntroduction(): JSX.Element {
         </VStack>
 
       </HStack>
-      <Text pb="20px" fontWeight="bold" fontSize="xl" color="#58595b">READ ME</Text>
+      <Text >READ ME</Text>
       <Text color="#58595b">
         I am a junior in college studying computer science. My areas of interest
-        are 「Web3.0」 and Philosophy. I have learned technology through Udemy and
+        are「Web3.0」and「Philosophy」. I have learned technology through Udemy and
         books. When I am not coding, I am thinking about new business ventures
         and refraining from outdoor activities such as watching soccer, fishing,
         etc. I am currently interning as an engineer at Prossell.jp.

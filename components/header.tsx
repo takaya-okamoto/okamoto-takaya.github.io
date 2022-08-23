@@ -2,7 +2,8 @@ import {
   HStack,
   Button,
   Box,
-  useClipboard
+  useClipboard,
+  Image
 } from "@chakra-ui/react";
 import NextLink from "next/link"
 
@@ -20,7 +21,7 @@ export function Header(): JSX.Element {
       {/* Header left */}
       <HStack w="60%">
         <NextLink href='/'>
-          <Button color="#58595b">Home</Button>
+          <Image src="/icon/taka.png" alt="taka" w="50px" ml="30px"/>
         </NextLink>
         <Box pl="70px">
           <Button onClick={onCopy} color="#58595b" leftIcon={<MdEmail />} bgColor="white" borderRadius="3px" fontSize='lg' _hover={{bg: '#8bbbd3', color: '#fff'}}>

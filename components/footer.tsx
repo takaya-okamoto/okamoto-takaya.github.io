@@ -3,6 +3,7 @@ import {
   HStack,
   Button,
   Box,
+  Image
 } from "@chakra-ui/react";
 import NextLink from "next/link"
 
@@ -12,7 +13,7 @@ export function Footer(): JSX.Element {
       {/* Footer left */}
       <Box w="35.8%">
         <NextLink href='/'>
-          <Button color="#58595b">Home</Button>
+          <Image src="/icon/taka.png" alt="taka" w="35px" ml="30px"/>
         </NextLink>
       </Box>
 
