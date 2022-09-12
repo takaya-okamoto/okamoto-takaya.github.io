@@ -5,7 +5,7 @@ import { WhatCanIDo } from '../components/mainArea/whatCanIDo'
 import { SelfIntroduction } from '../components/mainArea/selfIntroduction'
 import { Connection } from '../components/mainArea/connection'
 import { WorksComponent } from '../components/mainArea/worksComponent'
-import Support from './support'
+import { SupportComponent } from '../components/support/supportComponent'
 
 
 const Home: NextPage = () => {
@@ -15,7 +15,7 @@ const Home: NextPage = () => {
       <WhatCanIDo />
       <SelfIntroduction />
       <WorksComponent />
-      <Support connect={true}/>
+      <SupportComponent />
       <Connection isDissable={false}/>
     </Box>
   )

@@ -12,7 +12,7 @@ export default function Resume():JSX.Element {
       <Line />
       <Tech />
       <TimeLine />
-      <Connection />
+      <Connection isDissable={false}/>
     </Box>
   )
 }

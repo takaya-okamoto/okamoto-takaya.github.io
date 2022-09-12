@@ -12,9 +12,6 @@ export function Connection(props: IsDissableType): JSX.Element {
       ) : (
         <Box p="30px 0">
           <VStack>
-            <Text pb="20px" fontWeight="bold" fontSize="lg" color="#58595b">
-              Stay Connected
-            </Text>
             <Text pb="20px" fontSize="sm" color="#58595b">
               Takaya Okamoto
             </Text>
