@@ -15,7 +15,7 @@ const Home: NextPage = () => {
       <WhatCanIDo />
       <SelfIntroduction />
       <WorksComponent />
-      <SupportComponent />
+      {/* <SupportComponent /> */}
       <Connection isDissable={false}/>
     </Box>
   )

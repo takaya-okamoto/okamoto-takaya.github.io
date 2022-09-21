@@ -9,7 +9,7 @@ import NextLink from "next/link"
 
 export function Footer(): JSX.Element {
   return (
-    <HStack maxW="100%" p="30px 0px 10px 0px" ml="20px"> 
+    <HStack maxW="100%" p="30px 0px 10px 0px" ml="20px" display={{base: 'block', sm:'none'}}> 
       {/* Footer left */}
       <Box w="35.8%">
         <NextLink href='/'>

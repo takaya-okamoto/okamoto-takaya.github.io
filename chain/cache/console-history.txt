@@ -1,0 +1,15 @@
+formatEther(totalSupply)
+totalSupply = await token.totalSupply();
+token = await ethers.getContractAt("ClassToken", address);
+address = '0x30F8E83081B324CC87ED55F902Fb919Dc993D36d';
+formatEther = ethers.utils.formatEther;
+formatEther(totalSupply)
+totalSupply = await token.totalSupply();
+token = await ethers.getContractAt("ClassToken", address);
+address = '0x30F8E83081B324CC87ED55F902Fb919Dc993D36d';
+formatEther = ethers.utils.formatEther;
+formatEther(totalSupply)
+totalSupply = await token.totalSupply();
+token = await ethers.getContractAt("ClassToken", address);
+address = '0x5FbDB2315678afecb367f032d93F642f64180aa3';
+formatEther = ethers.utils.formatEther;
