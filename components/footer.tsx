@@ -13,7 +13,7 @@ export function Footer(): JSX.Element {
     <Box>
       <HStack p="30px 0px 10px 0px" ml="20px"> 
         {/* Footer left */}
-        <Box w={['10%', '10%', "35.8%"]}>
+        <Box w={['20%', '26%', "35.8%"]} display={{base: 'none', sm: 'block'}}>
           <NextLink href='/'>
             <Image src="/icon/taka.png" alt="taka" w="35px" ml={["0", "0", "30px"]}/>
           </NextLink>
