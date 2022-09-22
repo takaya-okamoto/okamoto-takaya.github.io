@@ -3,7 +3,7 @@ import { Line } from '../line/line'
 
 export function WhatCanIDo():JSX.Element {
   return (
-    <Box p="20px 0">
+    <Box p="20px 0"  mt={['15%', '10%', '5%']}>
       <Text pb="10px" fontWeight="bold" fontSize={["3xl", "4xl", "4xl"]} color="#58595b">What can I do ?</Text>
       <Line />
       <Box

@@ -10,7 +10,7 @@ import { SupportComponent } from '../components/support/supportComponent'
 
 const Home: NextPage = () => {
   return (
-    <Box p="0 10%">
+    <Box p="0 10%" mt={['15%', '10%', '5%']}>
       <Abstract />
       <WhatCanIDo />
       <SelfIntroduction />

@@ -39,7 +39,7 @@ export function Footer(): JSX.Element {
         </HStack>
       </HStack>
       <VStack pt={'20px'}>
-        <Text pl="10%" color="#58595b" fontSize="sm">&copy;2022 TAKAYA. ALL RIGHTS RESERVED</Text>
+        <Text color="#58595b" fontSize="sm">&copy;2022 TAKAYA. ALL RIGHTS RESERVED</Text>
       </VStack>
     </Box>
   );
