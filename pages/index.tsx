@@ -6,6 +6,8 @@ import { SelfIntroduction } from '../components/mainArea/selfIntroduction'
 import { Connection } from '../components/mainArea/connection'
 import { WorksComponent } from '../components/mainArea/worksComponent'
 import { SupportComponent } from '../components/support/supportComponent'
+import Resume from './resume'
+import { ResumeComponent } from '../components/resumeArea/resumeComponent'
 
 
 const Home: NextPage = () => {
@@ -16,6 +18,7 @@ const Home: NextPage = () => {
       <SelfIntroduction />
       <WorksComponent />
       {/* <SupportComponent /> */}
+      <ResumeComponent />
       <Connection isDissable={false}/>
     </Box>
   )

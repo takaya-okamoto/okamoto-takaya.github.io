@@ -37,7 +37,7 @@ export function Header(): JSX.Element {
       w="100vh"
       position={'fixed'}
       zIndex={'100'}
-      pt={'5px'} pb={'5px'}
+      pt={'10px'} pb={'10px'}
       bgColor={'#fff'}
       display={{ base: "block", md: 'none'}}
      >
@@ -51,7 +51,7 @@ export function Header(): JSX.Element {
           <IconButton
             aria-label="menu"
             icon={<GiHamburgerMenu />}
-            size='sm'
+            size='md'
             variant={'unstyled'}
             onClick={onOpen}
           />

@@ -13,7 +13,6 @@ import { Gi3DStairs } from 'react-icons/gi';
 export function TimeLine(): JSX.Element {
   return (
     <VerticalTimeline lineColor="#58595B">
-
       <VerticalTimelineElement
         className="vertical-timeline-element--work"
         contentStyle={{ background: "#F9F8F7", color: "#58595b" }}

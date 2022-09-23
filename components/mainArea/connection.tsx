@@ -1,7 +1,7 @@
 import { Box, Text, HStack, Image, VStack, Link } from "@chakra-ui/react";
 
-type IsDissableType = {
-  isDissable: boolean;
+export type IsDissableType = {
+  isDissable: boolean | undefined;
 };
 
 export function Connection(props: IsDissableType): JSX.Element {

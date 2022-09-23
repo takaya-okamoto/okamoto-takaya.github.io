@@ -5,7 +5,7 @@ import { Line } from '../line/line'
 
 export function WorksComponent():JSX.Element {
   return (
-    <Box p="40px 0"  mt={['15%', '10%', '5%']}>
+    <Box p="40px 0">
       <Text fontWeight="bold" fontSize={["3xl", "4xl", "4xl"]} color="#58595b">My Works</Text>
       <Text pb="20px" fontWeight="bold" fontSize="sm" color="#58595b">Some Of My Project</Text>
       <Line />
