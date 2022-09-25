@@ -4,4 +4,9 @@ const nextConfig = {
   swcMinify: true,
 }
 
+module.exports = {
+  basePath: process.env.GITHUB_ACTIONS && "/portfolio-page",
+  trailingSlash: true,
+};
+
 module.exports = nextConfig
