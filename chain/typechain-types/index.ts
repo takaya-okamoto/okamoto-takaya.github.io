@@ -14,5 +14,5 @@ export type { IERC20 } from "./@openzeppelin/contracts/token/ERC20/IERC20";
 export { IERC20__factory } from "./factories/@openzeppelin/contracts/token/ERC20/IERC20__factory";
 export type { ClassToken } from "./contracts/ClassToken";
 export { ClassToken__factory } from "./factories/contracts/ClassToken__factory";
-export type { Lock } from "./contracts/Greeter.sol/Lock";
-export { Lock__factory } from "./factories/contracts/Greeter.sol/Lock__factory";
+// export type { Lock } from "./contracts/Greeter.sol/Lock";
+// export { Lock__factory } from "./factories/contracts/Greeter.sol/Lock__factory";
