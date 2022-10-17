@@ -4,11 +4,6 @@ import type { AppProps } from 'next/app'
 import { ChakraProvider, Box } from '@chakra-ui/react'
 import { Header } from '../components/header'
 import { Footer } from '../components/footer'
-import { ethers } from 'ethers'
-
-import { BaseProvider } from '@metamask/providers';
-
-
 
 function MyApp({ Component, pageProps }: AppProps) {
 
