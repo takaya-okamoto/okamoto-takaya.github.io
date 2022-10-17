@@ -24,7 +24,7 @@ import { GiHamburgerMenu, GiLifeSupport } from "react-icons/gi"
 
 
 export function Header(): JSX.Element {
-  const myEmail = "taka-o.eth@mmail.ink";
+  const myEmail = "taka.crypt@gmail.com";
   const { hasCopied, onCopy } = useClipboard(myEmail);
 
   const { isOpen, onOpen, onClose } = useDisclosure();
