@@ -16,7 +16,7 @@ export function Connection(props: IsDissableType): JSX.Element {
               Takaya Okamoto
             </Text>
             <Text pb="50px" fontWeight="bold" fontSize="xl" color="#58595b">
-              taka-o.eth@mmail.ink
+              taka.crypt@gmail.com
             </Text>
             <HStack>
               <Link href="https://twitter.com/taka_crypt" target="_blank">
