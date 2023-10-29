@@ -16,15 +16,19 @@ export function Connection(props: IsDissableType): JSX.Element {
               Takaya Okamoto
             </Text>
             <Text pb="50px" fontWeight="bold" fontSize="xl" color="#58595b">
-              taka.crypt@gmail.com
+              takka3138@gmail.com
             </Text>
             <HStack>
-              <Link href="https://twitter.com/taka_crypt" target="_blank">
-                <Image src="/icon/twitter.png" alt="twitter" boxSize="35px" />
+              <Link href="https://twitter.com/taka_yolo" target="_blank">
+                <Image
+                  src="/icon/logo-black.png"
+                  alt="twitter"
+                  boxSize="25px"
+                />
               </Link>
-              <Link href="https://t.me/Taka_crypt" target="_blank">
+              {/* <Link href="https://t.me/Taka_crypt" target="_blank">
                 <Image src="/icon/telegram.png" alt="telegram" boxSize="35px" />
-              </Link>
+              </Link> */}
               <Link href="https://github.com/takaya-okamoto" target="_blank">
                 <Image src="/icon/github.png" alt="github" boxSize="35px" />
               </Link>
