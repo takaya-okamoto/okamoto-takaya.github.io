@@ -5,8 +5,8 @@ import { WhatCanIDo } from "../components/mainArea/whatCanIDo";
 import { SelfIntroduction } from "../components/mainArea/selfIntroduction";
 import { Connection } from "../components/mainArea/connection";
 import { WorksComponent } from "../components/mainArea/worksComponent";
-import Resume from "./resume";
 import { ResumeComponent } from "../components/resumeArea/resumeComponent";
+import { ContestComponent } from "../components/mainArea/contestComponent";
 
 const Home: NextPage = () => {
   return (
@@ -15,6 +15,7 @@ const Home: NextPage = () => {
       <WhatCanIDo />
       <SelfIntroduction />
       <WorksComponent />
+      <ContestComponent />
       <ResumeComponent />
       <Connection isDissable={false} />
     </Box>

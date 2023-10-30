@@ -21,9 +21,11 @@ import { MdEmail, MdContactPage } from "react-icons/md";
 import { ImUserTie } from "react-icons/im";
 import React from "react";
 import { GiHamburgerMenu, GiLifeSupport } from "react-icons/gi";
+import { useRouter } from "next/router";
 
 export function Header(): JSX.Element {
   const myEmail = "takka3138@gmail.com";
+  const router = useRouter();
   const { hasCopied, onCopy } = useClipboard(myEmail);
 
   const { isOpen, onOpen, onClose } = useDisclosure();
@@ -62,42 +64,48 @@ export function Header(): JSX.Element {
                     <DrawerHeader>Menu</DrawerHeader>
                     <Box pl={"10px"}>
                       <Box pb={"20px"}>
-                        <NextLink href="/">
-                          <Image
-                            src="/icon/taka.png"
-                            alt="taka"
-                            w="50px"
-                            ml="30px"
-                          />
-                        </NextLink>
+                        <Image
+                          src="/icon/taka.png"
+                          alt="taka"
+                          w="50px"
+                          onClick={() => {
+                            router.push("/");
+                            onClose();
+                          }}
+                          ml="30px"
+                        />
                       </Box>
                       <Box pb={"10px"}>
-                        <NextLink href="/works">
-                          <Button
-                            color="#58595b"
-                            leftIcon={<MdContactPage />}
-                            bgColor="white"
-                            borderRadius="3px"
-                            fontSize="lg"
-                            _hover={{ bg: "#8bbbd3", color: "#fff" }}
-                          >
-                            Works
-                          </Button>
-                        </NextLink>
+                        <Button
+                          color="#58595b"
+                          leftIcon={<MdContactPage />}
+                          bgColor="white"
+                          borderRadius="3px"
+                          fontSize="lg"
+                          onClick={() => {
+                            router.push("/works");
+                            onClose();
+                          }}
+                          _hover={{ bg: "#8bbbd3", color: "#fff" }}
+                        >
+                          Works
+                        </Button>
                       </Box>
                       <Box pb={"10px"}>
-                        <NextLink href="resume">
-                          <Button
-                            color="#58595b"
-                            leftIcon={<ImUserTie />}
-                            bgColor="white"
-                            borderRadius="3px"
-                            fontSize="lg"
-                            _hover={{ bg: "#8bbbd3", color: "#fff" }}
-                          >
-                            Resume
-                          </Button>
-                        </NextLink>
+                        <Button
+                          color="#58595b"
+                          leftIcon={<ImUserTie />}
+                          bgColor="white"
+                          borderRadius="3px"
+                          fontSize="lg"
+                          onClick={() => {
+                            router.push("/resume");
+                            onClose();
+                          }}
+                          _hover={{ bg: "#8bbbd3", color: "#fff" }}
+                        >
+                          Resume
+                        </Button>
                       </Box>
                       {/* <Box>
                       <NextLink href='/support'>
