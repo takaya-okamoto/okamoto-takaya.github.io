@@ -1,5 +1,3 @@
-import { url } from "inspector";
-
 export type CardType = {
   image: string;
   title: string;
